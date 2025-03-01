@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the quotes property from the quote library, for the Dart programming language.">
+  <title>quotes property - quote library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">quote_generator</a></li>
+    <li><a href="../models_quote/models_quote-library.html">models\quote.dart</a></li>
+    <li class="self-crumb">quotes property</li>
+  </ol>
+  <div class="self-name">quotes</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button" title="Toggle brightness">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        dark_mode
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        light_mode
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+  <div
+      id="dartdoc-main-content"
+      class="main-content"
+      data-above-sidebar="models_quote&#47;models_quote-library-sidebar.html"
+      data-below-sidebar="">
+      <div>
+<h1><span class="kind-top-level-property">quotes</span> top-level property 
+ 
+</h1></div>
+
+        <section class="multi-line-signature">
+          
+          <a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../models_quote/Quote-class.html">Quote</a></span>&gt;</span>
+          <span class="name ">quotes</span>
+          <div class="features"><span class="feature">getter/setter pair</span></div>
+
+        </section>
+        
+
+        
+<section class="summary source-code" id="source">
+  <h2><span>Implementation</span></h2>
+  <pre class="language-dart"><code class="language-dart">List&lt;Quote&gt; quotes = [
+  &#47;&#47; Motivational Quotes
+  Quote(
+    text: &quot;The only limit to our realization of tomorrow is our doubts of today.&quot;,
+    author: &quot;Franklin D. Roosevelt&quot;,
+    category: &quot;Motivational&quot;,
+    details: &quot;FDR was the 32nd President of the U.S. and led during the Great Depression.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author1.jpeg&quot;,
+  ),
+  Quote(
+    text: &quot;Believe you can and you&#39;re halfway there.&quot;,
+    author: &quot;Theodore Roosevelt&quot;,
+    category: &quot;Motivational&quot;,
+    details: &quot;Theodore Roosevelt was the 26th President of the United States.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author2.jpeg&quot;,
+  ),
+  Quote(
+    text: &quot;Success is not final, failure is not fatal: it is the courage to continue that counts.&quot;,
+    author: &quot;Winston Churchill&quot;,
+    category: &quot;Motivational&quot;,
+    details: &quot;Winston Churchill was the British Prime Minister during WWII.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author3.jpeg&quot;,
+  ),
+
+  &#47;&#47; Inspirational Quotes
+  Quote(
+    text: &quot;In the middle of every difficulty lies opportunity.&quot;,
+    author: &quot;Albert Einstein&quot;,
+    category: &quot;Inspirational&quot;,
+    details: &quot;Einstein was a theoretical physicist known for the theory of relativity.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author4.jpeg&quot;,
+  ),
+  Quote(
+    text: &quot;Act as if what you do makes a difference. It does.&quot;,
+    author: &quot;William James&quot;,
+    category: &quot;Inspirational&quot;,
+    details: &quot;William James was an American philosopher and psychologist.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author5.jpeg&quot;,
+  ),
+  Quote(
+    text: &quot;It always seems impossible until it’s done.&quot;,
+    author: &quot;Nelson Mandela&quot;,
+    category: &quot;Inspirational&quot;,
+    details: &quot;Mandela was a South African leader and Nobel Prize winner.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author6.jpeg&quot;,
+  ),
+
+  &#47;&#47; Love Quotes
+  Quote(
+    text: &quot;The best thing to hold onto in life is each other.&quot;,
+    author: &quot;Audrey Hepburn&quot;,
+    category: &quot;Love&quot;,
+    details: &quot;Audrey Hepburn was a British actress and humanitarian.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author7.jpeg&quot;,
+  ),
+  Quote(
+    text: &quot;You know you&#39;re in love when you can&#39;t fall asleep because reality is finally better than your dreams.&quot;,
+    author: &quot;Dr. Seuss&quot;,
+    category: &quot;Love&quot;,
+    details: &quot;Dr. Seuss was an American author known for his children&#39;s books.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author8.jpeg&quot;,
+  ),
+  Quote(
+    text: &quot;To love and be loved is to feel the sun from both sides.&quot;,
+    author: &quot;David Viscott&quot;,
+    category: &quot;Love&quot;,
+    details: &quot;David Viscott was an American psychiatrist and author.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author9.jpeg&quot;,
+  ),
+
+  &#47;&#47; History Quotes
+  Quote(
+    text: &quot;Those who do not remember the past are condemned to repeat it.&quot;,
+    author: &quot;George Santayana&quot;,
+    category: &quot;History&quot;,
+    details: &quot;George Santayana was a Spanish philosopher and writer.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author10.jpeg&quot;,
+  ),
+  Quote(
+    text: &quot;History will be kind to me for I intend to write it.&quot;,
+    author: &quot;Winston Churchill&quot;,
+    category: &quot;History&quot;,
+    details: &quot;Churchill was the British Prime Minister during WWII.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author3.jpeg&quot;,
+  ),
+  Quote(
+    text: &quot;The farther backward you can look, the farther forward you are likely to see.&quot;,
+    author: &quot;Winston Churchill&quot;,
+    category: &quot;History&quot;,
+    details: &quot;Winston Churchill was the British Prime Minister during WWII.&quot;,
+    imageUrl: &quot;assets&#47;images&#47;author3.jpeg&quot;,
+  ),
+];</code></pre>
+</section>
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../index.html">quote_generator</a></li>
+    <li><a href="../models_quote/models_quote-library.html">quote</a></li>
+    <li class="self-crumb">quotes property</li>
+</ol>
+
+
+    <h5>quote library</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div><!--/.sidebar-offcanvas-left-->
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    quote_generator
+      1.0.0+1
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+
