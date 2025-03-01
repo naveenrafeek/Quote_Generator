@@ -1,0 +1,37 @@
+name: quote_generator
+description: "A new Flutter project."
+
+publish_to: 'none' # Prevents accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons for iOS-style design
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets declaration (Ensure images are stored in assets/images/)
+  assets:
+    - assets/images/author1.jpeg
+    - assets/images/author2.jpeg
+    - assets/images/author3.jpeg
+    - assets/images/author4.jpeg
+    - assets/images/author5.jpeg
+    - assets/images/author6.jpeg
+    - assets/images/author7.jpeg
+    - assets/images/author8.jpeg
+    - assets/images/author9.jpeg
+    - assets/images/author10.jpeg
